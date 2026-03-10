@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d2e40c0-faf3-49bc-960f-37a228e2fd48" name="Changes" comment="Reorganizare">
-      <change afterPath="$PROJECT_DIR$/.idea/ISP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7d2e40c0-faf3-49bc-960f-37a228e2fd48" name="Changes" comment="Reorganizare si nou repository">
+      <change beforePath="$PROJECT_DIR$/Lab2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLab1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
       <workItem from="1773139418431" duration="382000" />
       <workItem from="1773154087528" duration="2394000" />
       <workItem from="1773156564727" duration="97000" />
-      <workItem from="1773156706666" duration="221000" />
+      <workItem from="1773156706666" duration="515000" />
     </task>
     <task id="LOCAL-00001" summary="Reorganizare">
       <option name="closed" value="true" />
@@ -86,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773154926345</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reorganizare si nou repository">
+      <option name="closed" value="true" />
+      <created>1773157022033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773157022035</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +103,7 @@
       <path value="$PROJECT_DIR$/TLab1" />
     </ignored-roots>
     <MESSAGE value="Reorganizare" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganizare" />
+    <MESSAGE value="Reorganizare si nou repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganizare si nou repository" />
   </component>
 </project>
