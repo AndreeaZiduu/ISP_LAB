@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -17,20 +19,13 @@ public class Main {
         ListaStudenti.add(student3);
         ListaStudenti.add(student4);
 
-        Student studentcautat1 = new Student (90, "Maria", "Zidu", "ISM Grupa 21" );
-        if (cautStudent(ListaStudenti, studentcautat1)){
+        Student studentcautat1 = new Student (90, "Alias", "Popa", "ISM Grupa 21" );
+        Set<Student> SetStudenti =  new HashSet<>(ListaStudenti);
+        if (SetStudenti.contains(studentcautat1)){
             System.out.println(studentcautat1 + " este prezent");
         }
-        else {
+        else
             System.out.println(studentcautat1 + " nu este prezent");
-        }
-        Student studentcautat2 = new Student (290, "Alias", "Popa", "ISM Grupa 22" );
-        if (cautStudent(ListaStudenti, studentcautat2)){
-            System.out.println(studentcautat2 + " este prezent");
-        }
-        else {
-            System.out.println(studentcautat2 + " nu este prezent");
-        }
 
 
         for (Student s : ListaStudenti)
@@ -38,14 +33,5 @@ public class Main {
 
 
     }
-    public static boolean cautStudent (List<Student> lista, Student cautat){
-        for (Student s : lista){
-            if (s.existaStudent(cautat)){
-                return true;
-            }
-        }
-        return false;
-    }
-
 }
 

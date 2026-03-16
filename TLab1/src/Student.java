@@ -15,11 +15,17 @@ public class Student {
     public String toString(){
         return "Student: " + numarMatricol+ ", "+  prenume +", "+ nume + ", " + formatieDeStudiu;
     }
-    public boolean existaStudent (Student nou){
+    @Override
+    public boolean equals (Object obj){
+        Student nou = (Student) obj; //Transform obiectul primit intr un Student
         return this.prenume.equals(nou.prenume) &&
                 this.nume.equals(nou.nume)&&
                 this.formatieDeStudiu.equals(nou.formatieDeStudiu);
 
+    }
+    @Override
+    public int hashCode(){
+        return (prenume + nume + formatieDeStudiu ).hashCode();
     }
 
 
