@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Student {
     private int numarMatricol;
     private String prenume;
@@ -13,6 +15,13 @@ public class Student {
     public String toString(){
         return "Student: " + numarMatricol+ ", "+  prenume +", "+ nume + ", " + formatieDeStudiu;
     }
+    public boolean existaStudent (Student nou){
+        return this.prenume.equals(nou.prenume) &&
+                this.nume.equals(nou.nume)&&
+                this.formatieDeStudiu.equals(nou.formatieDeStudiu);
+
+    }
+
 
 }
 

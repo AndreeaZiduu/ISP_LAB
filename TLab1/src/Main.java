@@ -17,9 +17,35 @@ public class Main {
         ListaStudenti.add(student3);
         ListaStudenti.add(student4);
 
+        Student studentcautat1 = new Student (90, "Maria", "Zidu", "ISM Grupa 21" );
+        if (cautStudent(ListaStudenti, studentcautat1)){
+            System.out.println(studentcautat1 + " este prezent");
+        }
+        else {
+            System.out.println(studentcautat1 + " nu este prezent");
+        }
+        Student studentcautat2 = new Student (290, "Alias", "Popa", "ISM Grupa 22" );
+        if (cautStudent(ListaStudenti, studentcautat2)){
+            System.out.println(studentcautat2 + " este prezent");
+        }
+        else {
+            System.out.println(studentcautat2 + " nu este prezent");
+        }
+
+
         for (Student s : ListaStudenti)
             System.out.println(s);
 
 
     }
+    public static boolean cautStudent (List<Student> lista, Student cautat){
+        for (Student s : lista){
+            if (s.existaStudent(cautat)){
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
+

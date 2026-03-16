@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d2e40c0-faf3-49bc-960f-37a228e2fd48" name="Changes" comment="Reorganizare si nou repository">
-      <change beforePath="$PROJECT_DIR$/.idea/ISP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ISP.iml" afterDir="false" />
+    <list default="true" id="7d2e40c0-faf3-49bc-960f-37a228e2fd48" name="Changes" comment="ex 2, punctul a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TLab1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TLab1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLab1/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/TLab1/src/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +41,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/ISP",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "settings.editor.splitter.proportion": "0.3070078",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/ISP&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3070078&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,7 +77,8 @@
       <workItem from="1773156564727" duration="97000" />
       <workItem from="1773156706666" duration="1035000" />
       <workItem from="1773169150935" duration="45000" />
-      <workItem from="1773580501393" duration="1804000" />
+      <workItem from="1773580501393" duration="1854000" />
+      <workItem from="1773668995825" duration="1877000" />
     </task>
     <task id="LOCAL-00001" summary="Reorganizare">
       <option name="closed" value="true" />
@@ -95,7 +96,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773157022035</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ex 2, punctul a">
+      <option name="closed" value="true" />
+      <created>1773582378011</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773582378011</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ex 2, punctul a">
+      <option name="closed" value="true" />
+      <created>1773582392818</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773582392818</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +136,7 @@
     </ignored-roots>
     <MESSAGE value="Reorganizare" />
     <MESSAGE value="Reorganizare si nou repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganizare si nou repository" />
+    <MESSAGE value="ex 2, punctul a" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex 2, punctul a" />
   </component>
 </project>
