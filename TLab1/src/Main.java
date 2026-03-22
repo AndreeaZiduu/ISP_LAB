@@ -1,13 +1,13 @@
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.*;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
-        Student student1 = new Student(300, "Mihaela", "Popescu", "ISM Grupa 21");
+        /*Student student1 = new Student(300, "Mihaela", "Popescu", "ISM Grupa 21");
         System.out.println(student1);
         Student student2 = new Student(210, "Bianca", "Florescu", "ISM Grupa 21");
         Student student3 = new Student(90, "Maria", "Zidu", "ISM Grupa 21");
@@ -29,9 +29,40 @@ public class Main {
 
 
         for (Student s : ListaStudenti)
-            System.out.println(s);
+            System.out.println(s);*/
+
+        try {
+            citire("infile.txt");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    static void citire (String fileName) throws  IOException{
+        Path path = Paths.get("studenti_in.txt");
+        List <String> linii = Files.readAllLines(path);
+        List<Student> ListaStudenti = new ArrayList<>();
+        for (String linie : linii){
+            String [] date = linie.split(",");
+            ListaStudenti.add(new Student(Integer.parseInt(date[0]), date[1], date[2], date[3]));
+        }
+        Collections.sort(ListaStudenti);
+
+        List<String> salvat = new ArrayList<>();
+        for (Student s: ListaStudenti){
+            salvat.add(s.toString());
+            System.out.println(ListaStudenti);
+        }
+
+        Path path1 = Paths.get("studenti_out.txt");
+        Files.write(path1, salvat);
+
+
+
 
 
     }
+
 }
 

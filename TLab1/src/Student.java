@@ -1,6 +1,4 @@
-import java.util.List;
-
-public class Student {
+public class Student implements Comparable <Student>{
     private int numarMatricol;
     private String prenume;
     private String nume;
@@ -28,6 +26,10 @@ public class Student {
         return (prenume + nume + formatieDeStudiu ).hashCode();
     }
 
+    @Override
+    public int compareTo(Student st2){
+        return this.nume.compareTo(st2.nume);
+    }
 
 }
 
