@@ -26,9 +26,14 @@ public class Student implements Comparable <Student>{
         return (prenume + nume + formatieDeStudiu ).hashCode();
     }
 
-    @Override
+
     public int compareTo(Student st2){
-        return this.nume.compareTo(st2.nume);
+       int rezFormatie = this.formatieDeStudiu.compareTo(st2.formatieDeStudiu);
+
+       if (rezFormatie !=0 ){
+           return rezFormatie;
+       }
+       return this.nume.compareTo(st2.nume);
     }
 
 }

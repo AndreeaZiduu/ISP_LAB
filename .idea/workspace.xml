@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d2e40c0-faf3-49bc-960f-37a228e2fd48" name="Changes" comment="ex 2, punctele b si c">
+    <list default="true" id="7d2e40c0-faf3-49bc-960f-37a228e2fd48" name="Changes" comment="laborator 3, ex 2">
+      <change afterPath="$PROJECT_DIR$/studenti_out_sorted.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TLab1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TLab1/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TLab1/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/TLab1/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISP/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISP/Student.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +38,9 @@
     &quot;accountId&quot;: &quot;e7eab460-67f8-4164-beb7-c5161f79cc4f&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -52,11 +60,21 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/ISP&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/ISP/Lab3/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.3070078&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ISP" />
+      <recent name="C:\ISP\Lab3" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,7 +96,10 @@
       <workItem from="1773156706666" duration="1035000" />
       <workItem from="1773169150935" duration="45000" />
       <workItem from="1773580501393" duration="1854000" />
-      <workItem from="1773668995825" duration="3056000" />
+      <workItem from="1773668995825" duration="3501000" />
+      <workItem from="1773726853636" duration="4253000" />
+      <workItem from="1774116765103" duration="5762000" />
+      <workItem from="1774180704254" duration="5856000" />
     </task>
     <task id="LOCAL-00001" summary="Reorganizare">
       <option name="closed" value="true" />
@@ -120,7 +141,31 @@
       <option name="project" value="LOCAL" />
       <updated>1773671133056</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tema casa laborator 2">
+      <option name="closed" value="true" />
+      <created>1773672910444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1773672910445</updated>
+    </task>
+    <task id="LOCAL-00007" summary="laborator 3, ex 1 complet">
+      <option name="closed" value="true" />
+      <created>1774121356216</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774121356217</updated>
+    </task>
+    <task id="LOCAL-00008" summary="laborator 3, ex 2">
+      <option name="closed" value="true" />
+      <created>1774184929955</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1774184929956</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +191,9 @@
     <MESSAGE value="Reorganizare si nou repository" />
     <MESSAGE value="ex 2, punctul a" />
     <MESSAGE value="ex 2, punctele b si c" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex 2, punctele b si c" />
+    <MESSAGE value="Tema casa laborator 2" />
+    <MESSAGE value="laborator 3, ex 1 complet" />
+    <MESSAGE value="laborator 3, ex 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="laborator 3, ex 2" />
   </component>
 </project>

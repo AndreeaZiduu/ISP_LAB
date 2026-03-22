@@ -52,10 +52,10 @@ public class Main {
         List<String> salvat = new ArrayList<>();
         for (Student s: ListaStudenti){
             salvat.add(s.toString());
-            System.out.println(ListaStudenti);
+            System.out.println(s);
         }
 
-        Path path1 = Paths.get("studenti_out.txt");
+        Path path1 = Paths.get("studenti_out_sorted.txt");
         Files.write(path1, salvat);
 
 
